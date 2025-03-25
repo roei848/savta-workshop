@@ -1,0 +1,55 @@
+@import "./styles/globals.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  direction: rtl;
+}
+
+body {
+  font-family: $body-font;
+  text-align: right;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: $lightest-pink;
+  color: $dark-green;
+  font-size: $font-size-sm;
+  line-height: 1.6;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 0 $spacing-lg;
+    text-align: center;
+    background-color: $medium-green;
+    box-shadow: $box-shadow-light;
+    height: $header-height;
+    display: flex;
+    align-items: center;
+
+    h1 {
+      color: $pale-pink;
+      font-size: $font-size-xl;
+      font-family: $heading-font;
+      font-weight: 700;
+      text-shadow: $text-shadow;
+      text-align: right;
+      letter-spacing: 2px;
+    }
+  }
+
+  .content {
+    flex: 1;
+    display: flex;
+    position: relative;
+    margin-top: $spacing-sm;
+  }
+}

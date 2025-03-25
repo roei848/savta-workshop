@@ -1,0 +1,44 @@
+@import './styles/globals.scss';
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: $lightest-pink;
+
+  header {
+    padding: 0 $spacing-lg;
+    text-align: center;
+    background-color: $dark-green;
+
+    .header-content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: $spacing-lg;
+
+      .logo {
+        height: 120px;
+        width: auto;
+        object-fit: contain;
+      }
+
+      h1 {
+        color: $lightest-pink;
+        font-family: $heading-font;
+        font-size: $font-size-xl;
+        margin: 0;
+        letter-spacing: 2px;
+        text-shadow: $text-shadow;
+      }
+    }
+  }
+
+  main {
+    flex: 1;
+    padding: $spacing-lg;
+    max-width: 1400px;
+    margin: 0 auto;
+    width: 100%;
+  }
+} 

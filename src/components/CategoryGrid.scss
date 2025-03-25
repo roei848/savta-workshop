@@ -1,0 +1,67 @@
+@import '../styles/globals.scss';
+
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: $spacing-lg;
+  padding: $spacing-lg;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.category-card {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: $box-shadow-medium;
+  transition: $transition-default;
+  cursor: pointer;
+  aspect-ratio: 4/3;
+  background-color: $pale-pink;
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba($dark-green, 0.2);
+
+    .category-title {
+      background: $hover-gradient;
+    }
+  }
+
+  .category-image {
+    width: 100%;
+    height: 100%;
+    
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+  }
+
+  .category-title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(
+      to bottom,
+      rgba($dark-green, 0.7),
+      rgba($dark-green, 0.9)
+    );
+    padding: $spacing-md;
+    transition: $transition-default;
+
+    h3 {
+      color: $lightest-pink;
+      font-family: $subheading-font;
+      font-size: $font-size-md;
+      font-weight: 700;
+      text-align: center;
+      margin: 0;
+      text-shadow: $text-shadow;
+    }
+  }
+} 

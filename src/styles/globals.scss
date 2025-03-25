@@ -1,0 +1,42 @@
+// Colors
+$dark-green: #1A2E2B;     // Darkest green
+$medium-green: #2D4544;   // Medium green
+$dusty-rose: #B17575;     // Dusty rose
+$light-rose: #E5B7B7;     // Light rose
+$pale-pink: #F2D9D9;      // Pale pink
+$lightest-pink: #FFF0F0;  // Lightest pink background
+
+// Fonts
+$heading-font: 'Amatic SC', cursive;    // Artistic, handwritten style
+$subheading-font: 'Caveat', cursive;    // Elegant handwritten style
+$body-font: 'Varela Round', sans-serif; // Clean, friendly font that works well with Hebrew
+
+// Font Sizes
+$font-size-xl: 4.5rem;   // For main title
+$font-size-lg: 2.5rem;   // For category titles
+$font-size-md: 1.5rem;   // For sidebar items
+$font-size-sm: 1rem;     // For regular text
+
+// Shadows
+$box-shadow-light: 0 2px 4px rgba(26, 46, 43, 0.1);
+$box-shadow-medium: 0 4px 8px rgba(26, 46, 43, 0.15);
+$text-shadow: 2px 2px 4px rgba(26, 46, 43, 0.1);
+
+// Spacing
+$spacing-sm: 0.5rem;
+$spacing-md: 1rem;
+$spacing-lg: 2rem;
+
+// Transitions
+$transition-default: all 0.3s ease;
+
+// Gradients
+$hover-gradient: linear-gradient(
+  to bottom right,
+  rgba(177, 117, 117, 0.9),
+  rgba(45, 69, 68, 0.8)
+); 
+
+// Heights    
+$header-height: 120px;
+
