@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/savta-workshop/static/css/main.c7c47601.css",
+    "main.js": "/savta-workshop/static/js/main.3a77be8b.js",
+    "index.html": "/savta-workshop/index.html",
+    "main.c7c47601.css.map": "/savta-workshop/static/css/main.c7c47601.css.map",
+    "main.3a77be8b.js.map": "/savta-workshop/static/js/main.3a77be8b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c7c47601.css",
+    "static/js/main.3a77be8b.js"
+  ]
+}
