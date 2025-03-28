@@ -41,4 +41,47 @@
     margin: 0 auto;
     width: 100%;
   }
+}
+
+// Media Queries
+@media screen and (max-width: 768px) {
+  .app {
+    header {
+      padding: 0 $spacing-md;
+
+      .header-content {
+        flex-direction: column;
+        padding: $spacing-md 0;
+        gap: $spacing-md;
+
+        .logo {
+          height: 80px;
+        }
+
+        h1 {
+          font-size: 3rem;
+        }
+      }
+    }
+
+    main {
+      padding: $spacing-md;
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .app {
+    header {
+      .header-content {
+        h1 {
+          font-size: 2.5rem;
+        }
+      }
+    }
+
+    main {
+      padding: $spacing-sm;
+    }
+  }
 } 

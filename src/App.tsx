@@ -35,7 +35,7 @@ const App: React.FC = () => {
         <div className="header-content">
           <h1>הגלריה של סבתא</h1>
           <img
-            src="/images/logo.jpeg"
+            src="/images/logo.png"
             alt="Batya Goldstein Logo"
             className="logo"
           />
